@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>CheerLights Body Background Color Example</title>
+
+  </head>
+
+  <body>
+    <script src="../cheerlights.js"></script>
+
+    <script>
+        CheerLights.getColor(setBodyBackgroundColor);
+
+        function setBodyBackgroundColor(color) {
+            document.body.style.backgroundColor = color.htmlName;
+        }
+    </script>
+
+  </body>
+</html>
