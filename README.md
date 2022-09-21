@@ -5,10 +5,18 @@ JavaScript client library for connecting to ThingSpeak ( https://thingspeak.com/
 
 ## Usage
 
-Add library to webpage: 
+Add library to webpage:
+
+* Local
 
 ```
 <script src="cheerlights.js"></script>
+```
+
+* CDN for v1.0.0
+
+```
+<script src="https://cdn.jsdelivr.net/gh/cheerlights/cheerlights-javascript@1.0.0/cheerlights.js"></script>
 ```
 
 Use getColor and set a callback:
