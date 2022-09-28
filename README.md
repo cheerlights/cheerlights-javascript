@@ -19,6 +19,12 @@ Add library to webpage:
 <script src="https://cdn.jsdelivr.net/gh/cheerlights/cheerlights-javascript@1.0.0/cheerlights.js"></script>
 ```
 
+* CDN for Latest Release
+
+```
+<script src="https://cdn.jsdelivr.net/gh/cheerlights/cheerlights-javascript@latest/cheerlights.js"></script>
+```
+
 Use getColor and set a callback:
 
 ```
